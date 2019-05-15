@@ -9,7 +9,7 @@ Execute `python3 torrc_gen.py` and answer the three questions. When the script h
 To run tor, just execute `sh launch_tor.sh <torrc filename here>` specifying the torrc filename you chose as commandline argument. If no errors was reported by tor, it should be started successfully.
 
 # Make sure tor has started
-The last file, `check_tor.sh` simply outputs all the opended sockets by tor. You can run it using `sh check_tor.sh` command.
+The last file, `check_tor.sh` simply outputs all the opened sockets by tor. You can run it using `sh check_tor.sh` command.
 
 # Notes
 This project is not yet production ready. Feel free to open an issue if you encounter any problem.
